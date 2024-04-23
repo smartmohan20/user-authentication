@@ -44,6 +44,9 @@ export const login = async (email: string, password: string) : Promise<any> => {
             const authToken = jwt.sign({ id: user.dataValues.id }, AUTH_SECRET_KEY, { expiresIn: TOKEN_EXPIRY });
 
             objRes.data = authToken;
+        } else {
+            objRes.statusCode = 401;
+            objRes.message = 'Unauthorized!';
         }
 
         return objRes;
