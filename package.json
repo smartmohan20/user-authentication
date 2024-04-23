@@ -1,0 +1,20 @@
+{
+  "name": "user-authentication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/smartmohan20/user-authentication.git",
+  "author": "smartmohan20 <dev.smartmohan@gmail.com~>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/nodemon": "^1.19.6",
+    "nodemon": "^3.1.0"
+  }
+}
