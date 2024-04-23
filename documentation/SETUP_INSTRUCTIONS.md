@@ -11,10 +11,10 @@ Follow the instructions below to set up and run the project using Yarn:
 
       **Note:** Replace [repository_url] with the actual repository URL. You can find this URL by visiting the repository homepage, clicking on the "Code" button, and selecting the HTTPS option. Copy the provided URL and use it in the command above.
 
-2. **Checkout to Master Branch:**
-   - Switch to the master branch using the following command:
+2. **Checkout to main Branch:**
+   - Switch to the main branch using the following command:
      ```
-     git checkout master
+     git checkout main
      ```
 
 3. **Install Dependencies:**
