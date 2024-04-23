@@ -6,8 +6,8 @@ import { signup } from '../../repositories/user/userRepository';
 export const signupController = async (req: Request, res: Response) : Promise<void> => {
   try {
     let objRes = ISErrorRes;
-    const { email, password } = req.body;
-    const objSignupRes = await signup(email, password);
+    const { name, email, password } = req.body;
+    const objSignupRes = await signup(name, email, password);
     if (objSignupRes && objSignupRes.statusCode) {
       objRes = objSignupRes;
     }
