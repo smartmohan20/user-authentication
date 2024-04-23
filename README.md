@@ -2,7 +2,7 @@
 
 This repository contains the code for a user authentication API built using Node.js, Express.js, Sequelize ORM, and MySQL database. The API provides endpoints for user signup and login functionalities, utilizing JWT web tokens for authentication. Express validator ensures data integrity in requests.
 
-**Repo:** `user-athentication`
+**Repo:** `user-authentication`
 
 Contribute to the robust backend of user authentication now!
 
