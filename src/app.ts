@@ -6,6 +6,7 @@ import bodyParser from 'body-parser';
 // Load environment variables from .env file
 dotenv.config();
 
+import { connectDatabase } from './database/database';
 import rootRoutes from './routes/rootRoutes';
 
 // Create the Express app
@@ -19,5 +20,8 @@ app.use(bodyParser.json());
 
 // Use the routes
 app.use('/', rootRoutes);
+
+// Connect to the database
+connectDatabase()
 
 export default app;
